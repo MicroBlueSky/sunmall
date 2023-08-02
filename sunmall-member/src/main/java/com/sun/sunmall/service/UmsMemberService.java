@@ -1,6 +1,9 @@
 package com.sun.sunmall.service;
 
+import com.sun.sunmall.bean.dto.UserLoginDTO;
 import com.sun.sunmall.common.api.CommonResult;
+
+import javax.servlet.http.HttpServletRequest;
 
 public interface UmsMemberService {
     /*
@@ -12,4 +15,6 @@ public interface UmsMemberService {
      * 生成验证码
      */
     CommonResult generateAuthCode(String telephone);
+
+    CommonResult login(UserLoginDTO dto, HttpServletRequest request);
 }

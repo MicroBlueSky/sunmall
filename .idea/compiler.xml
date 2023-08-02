@@ -7,10 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sunmall-common" />
-        <module name="sunmall-authcenter" />
+        <module name="sunmall-order-current" />
         <module name="sunmall-member" />
+        <module name="sunmall-redis-common" />
+        <module name="sunmall-order-history" />
+        <module name="sunmall-portal" />
         <module name="sunmall-gateway" />
+        <module name="sunmall-authcenter" />
+        <module name="sunmall-product" />
+        <module name="sunmall-common" />
       </profile>
     </annotationProcessing>
   </component>

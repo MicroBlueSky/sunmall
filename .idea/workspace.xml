@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4eb1bf2-f6fd-44e2-a7c7-ec54519f4cb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/AuthcenterApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/component/SunTokenEnhancer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/config/SunAuthServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/properties/JwtCAProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/sunmall/domain/MemberDetails.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/sunmall/mapper/UmsMemberMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/sunmall/model/UmsMember.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/sunmall/model/UmsMemberExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/sunmall/model/UmsMemberExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/sunmall/model/UmsMemberExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/sunmall/model/UmsMemberExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/com/sun/sunmall/service/SunUserDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/jwt.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/mappers/UmsMemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-authcenter/target/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/com/sun/sunmall/common/api/CommonPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/com/sun/sunmall/common/api/CommonResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/com/sun/sunmall/common/api/IErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/com/sun/sunmall/common/api/ResultCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/com/sun/sunmall/common/api/TokenInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/com/sun/sunmall/common/constant/RedisKeyPrefixConst.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/com/sun/sunmall/common/constant/RedisMemberPrefix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/com/sun/sunmall/common/exception/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/com/sun/sunmall/common/exception/GateWayException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/com/sun/sunmall/model/PmsProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/com/sun/sunmall/promotion/domain/FlashPromotionProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-common/target/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/GatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/config/RabbitConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/exception/CustomErrorWebExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/exception/ExceptionAutoConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/exception/GateWayExceptionHandlerAdvice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/exception/GatewayBlockExceptionHandler$ErrorResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/exception/GatewayBlockExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/filter/AuthorizationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/properties/AuthInfoProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/properties/NoAuthUrlProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-gateway/target/classes/com/sun/sunmall/utils/JwtUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/bean/UmsMemberReceiveAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/bean/UmsMemberReceiveAddressExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/bean/domain/PortalMemberInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/bean/dto/UserLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/controller/UmsMemberCenterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/dao/PortalMemberInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/mapper/UmsMemberReceiveAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/UmsMemberCenterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/impl/MemberReceiveAddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/impl/UmsMebmerCenterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/resources/dao/PortalMemberInfoDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/src/main/resources/mappers/UmsMemberReceiveAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/MDA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/MemberApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/bean/UmsMember.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/bean/UmsMemberExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/bean/UmsMemberExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/bean/UmsMemberExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/bean/UmsMemberExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/bean/UmsMemberLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/bean/UmsMemberLevelExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/bean/UmsMemberLevelExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/bean/UmsMemberLevelExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/bean/UmsMemberLevelExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/config/MemberServiceConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/config/RibbonConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/config/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/controller/UmsMemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/mapper/UmsMemberLevelMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/mapper/UmsMemberMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/service/UmsMemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/com/sun/sunmall/service/impl/UmsMemberServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/mappers/UmsMemberLevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-member/target/classes/mappers/UmsMemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-order/sunmall-order-current/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-order/sunmall-order-current/src/main/java/com/sun/sunmall/OrderCurrentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-order/sunmall-order-current/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-order/sunmall-order-current/sunmall-order-current.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-order/sunmall-order-history/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-order/sunmall-order-history/sunmall-order-history.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-order/sunmall-order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/PortalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/CmsSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/PmsBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/PmsComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/PmsCommentReplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/PmsProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/PortalMemberInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/UmsMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/UmsMemberLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/UmsMemberReceiveAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/controller/PortalProductCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/dao/PortalProductCommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/domain/HomeContentResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/domain/PmsCommentParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/domain/SmsHomeAdvertise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/feign/interceptor/HeaderInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/feign/member/UmsMemberFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/handler/RequestBadExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/mapper/PmsCommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/mapper/PmsCommentReplayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/service/HomeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/service/PortalProductCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/service/impl/HomeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/service/impl/PortalProductCommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/resources/dao/PortalProductCommentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/resources/dao/PortalProductDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/resources/mappers/PmsCommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-portal/src/main/resources/mappers/PmsCommentReplayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/config/MemberServiceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/config/RibbonConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/config/Swagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/constant/MDA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-product/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-product/sunmall-product.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-redis-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-redis-common/src/main/java/com/sun/sunmall/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-redis-common/src/main/java/com/sun/sunmall/util/RedisOpsExtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sunmall-redis-common/sunmall-redis-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunmall-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sunmall-member/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/controller/UmsMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/controller/UmsMemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/mapper/UmsMemberLevelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/mapper/UmsMemberLevelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/mapper/UmsMemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/mapper/UmsMemberMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/RedisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/UmsMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/UmsMemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/impl/RedisServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/impl/UmsMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunmall-member/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sunmall-member/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sunmall-member/src/main/resources/mappers/UmsMemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sunmall-member/src/main/resources/mappers/UmsMemberMapper.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/sunmall-common/target/" />
+    <ignored path="$PROJECT_DIR$/sunmall-authcenter/target/" />
+    <ignored path="$PROJECT_DIR$/sunmall-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/sunmall-member/target/" />
+    <ignored path="$PROJECT_DIR$/sunmall-portal/target/" />
+    <ignored path="$PROJECT_DIR$/sunmall-redis-common/target/" />
+    <ignored path="$PROJECT_DIR$/sunmall-product/target/" />
+    <ignored path="$PROJECT_DIR$/sunmall-order/target/" />
+    <ignored path="$PROJECT_DIR$/sunmall-order/sunmall-order-current/target/" />
+    <ignored path="$PROJECT_DIR$/sunmall-order/sunmall-order-history/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/controller/UmsMemberCenterController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/impl/UmsMebmerCenterServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+              <folding>
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/resources/dao/PortalMemberInfoDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/dao/PortalMemberInfoDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/mapper/UmsMemberLevelMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/mapper/UmsMemberMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/mapper/UmsMemberReceiveAddressMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sunmall-order/sunmall-order-current/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2.2.6.RELEASE/spring-cloud-starter-alibaba-nacos-config-2.2.6.RELEASE.jar!/com/alibaba/cloud/nacos/NacosConfigProperties.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="127" column="55" selection-start-line="127" selection-start-column="55" selection-end-line="127" selection-end-column="55" />
+              <folding>
+                <element signature="e#4097#4098#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sunmall-order/sunmall-order-current/src/main/java/com/sun/sunmall/OrderCurrentApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#759#760#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>like BCrypt</find>
+      <find>Encoded password does not look like BCrypt</find>
+      <find>根据用户名</find>
+      <find>218.76.8.107</find>
+      <find>192.168.1.160</find>
+      <find>tuling.tulingmall</find>
+      <find>sunmall-portal-dev</find>
+      <find>http://sunmall-member/member/center/getMemberInfo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/sunmall-gateway/src/main/java/com/sun/sunmall/filter/AuthorizationFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/service/impl/PortalProductCommentServiceImpl.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/domain/SmsHomeAdvertise.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/PmsBrand.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/CmsSubject.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/domain/HomeContentResult.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/service/HomeService.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/PmsComment.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/PmsCommentReplay.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/domain/PmsCommentParam.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/service/PortalProductCommentService.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/resources/dao/PortalProductCommentDao.xml" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/mapper/PmsCommentReplayMapper.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/resources/mappers/PmsCommentReplayMapper.xml" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/feign/interceptor/HeaderInterceptor.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/feign/PmsProductFeignApi.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/resources/mappers/application.properties" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/service/impl/HomeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sunmall-redis-common/src/main/java/com/sun/sunmall/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/sunmall-redis-common/src/main/java/com/sun/sunmall/util/RedisOpsExtUtil.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/sunmall-member/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/PortalApplication.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/resources/dao/PortalProductDao.xml" />
+        <option value="$PROJECT_DIR$/sunmall-member/pom.xml" />
+        <option value="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/impl/UmsMemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/controller/UmsMemberController.java" />
+        <option value="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/feign/client/UmsProductFeignApi.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/feign/interceptor/UmsMemberFeignClient.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/UmsMemberReceiveAddress.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/UmsMember.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/UmsMemberLevel.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/PortalMemberInfo.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/mapper/PmsCommentMapper.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/controller/PortalProductCommentController.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/resources/mappers/PmsCommentMapper.xml" />
+        <option value="$PROJECT_DIR$/sunmall-product/pom.xml" />
+        <option value="$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/config/MemberServiceConfig.java" />
+        <option value="$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/config/RibbonConfig.java" />
+        <option value="$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/ProductApplication.java" />
+        <option value="$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/constant/MDA.java" />
+        <option value="$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/controller/MemberCenterController.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/dao/PortalProductCommentDao.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/service/impl/PortalProductCommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/controller/UmsMemberCenterController.java" />
+        <option value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/feign/member/UmsMemberFeignClient.java" />
+        <option value="$PROJECT_DIR$/sunmall-order/sunmall-order-current/pom.xml" />
+        <option value="$PROJECT_DIR$/sunmall-order/sunmall-order-current/src/main/java/OrderCurrentApplication.java" />
+        <option value="$PROJECT_DIR$/sunmall-order/sunmall-order-current/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/sunmall-order/sunmall-order-current/src/main/java/com/sun/sunmall/OrderCurrentApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.3\repository" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sunmall-authcenter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sunmall-authcenter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sunmall-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sunmall-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sunmall-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sunmall-redis-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="sunmall-redis-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="1" />
+    <option name="width" value="1346" />
+    <option name="height" value="687" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-authcenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-authcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-authcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-authcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-authcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-authcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-authcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-authcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sun" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-member" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-member" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order-current" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order-current" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order-current" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order-current" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order-current" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sunmall" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order" type="462c0819:PsiDirectoryNode" />
+              <item name="sunmall-order-current" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sunmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/feign" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sunmall-portal/src/main/resources/dao" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.45882353" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sun.sunmall.service" />
+      <recent name="com.sun.sunmall.dao" />
+      <recent name="com.sun.sunmall.bean" />
+      <recent name="com.sun.sunmall.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sun.sunmall.constant" />
+      <recent name="com.sun.sunmall.config" />
+      <recent name="com.sun.sunmall.bean" />
+      <recent name="com.sun.sunmall.feign.interceptor" />
+      <recent name="com.sun.sunmall.feign" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\study\git code\sunmall\sunmall-portal\src\main\resources\dao" />
+      <recent name="G:\study\git code\sunmall\sunmall-portal\src\main\java\com\sun\sunmall\bean" />
+      <recent name="G:\study\sunmall\sunmall-member\src\main\resources" />
+      <recent name="G:\study\sunmall\sunmall-gateway\src\main\java\com\sun\sunmall\exception" />
+      <recent name="G:\study\sunmall\sunmall-authcenter\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.22655007" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.OrderCurrentApplication">
+    <configuration name="AuthcenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sunmall-authcenter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sun.AuthcenterApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sunmall-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sun.sunmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sun.sunmall.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sunmall-member" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sun.sunmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sun.sunmall.MemberApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="CLASSPATH_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderCurrentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sunmall-order-current" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sun.sunmall.OrderCurrentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PortalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sunmall-portal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sun.sunmall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sun.sunmall.PortalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sunmall-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sun.sunmall.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AuthcenterApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.MemberApplication" />
+      <item itemvalue="Spring Boot.PortalApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.OrderCurrentApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderCurrentApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.PortalApplication" />
+        <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.AuthcenterApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4eb1bf2-f6fd-44e2-a7c7-ec54519f4cb9" name="Default Changelist" comment="" />
+      <created>1690118838242</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690118838242</updated>
+      <workItem from="1690118841842" duration="4352000" />
+      <workItem from="1690206442990" duration="4063000" />
+      <workItem from="1690295279489" duration="1044000" />
+      <workItem from="1690297341651" duration="11063000" />
+      <workItem from="1690427155903" duration="1019000" />
+      <workItem from="1690428495496" duration="228000" />
+      <workItem from="1690428793123" duration="28205000" />
+      <workItem from="1690625322052" duration="12515000" />
+      <workItem from="1690684147667" duration="1401000" />
+      <workItem from="1690685628377" duration="3227000" />
+      <workItem from="1690689907709" duration="627000" />
+      <workItem from="1690692041407" duration="138000" />
+      <workItem from="1690692234199" duration="130000" />
+      <workItem from="1690692415941" duration="28285000" />
+      <workItem from="1690899220927" duration="6845000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化项目">
+      <created>1690686060118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690686060118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="103142000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="1" width="1346" height="687" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29393467" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.28922495" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32830188" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4992224" weight="0.4215501" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.37288135" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007776" side_tool="true" weight="0.5085066" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" visible="true" weight="0.26275992" />
+      <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
+      <window_info anchor="bottom" id="Problems" order="17" />
+      <window_info anchor="bottom" id="JRebel Executor" order="18" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.13608088" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="10" side_tool="true" weight="0.32970452" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化项目" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.3.3.RELEASE/spring-security-crypto-5.3.3.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sunmall-gateway/src/main/java/com/sun/sunmall/utils/JwtUtils.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sunmall-common/src/main/java/com/sun/sunmall/service/impl/RedisServiceImpl.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sunmall-common/src/main/java/com/sun/sunmall/service/impl/RedisServiceImpl.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sunmall-common/src/main/java/com/sun/sunmall/service/impl/RedisServiceImpl.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/UmsMemberReceiveAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="124" column="21" selection-start-line="124" selection-start-column="21" selection-end-line="124" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/config/MemberServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/config/RibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/ProductApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/controller/MemberCenterController.java" />
+    <entry file="file://$PROJECT_DIR$/sunmall-product/src/main/java/com/sun/sunmall/constant/MDA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/impl/UmsMemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="134" column="61" selection-start-line="134" selection-start-column="61" selection-end-line="134" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/UmsMemberCenterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/MemberApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/bean/PmsComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/resources/mappers/PmsCommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1653">
+          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-product/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/resources/dao/PortalProductCommentDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/mapper/PmsCommentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/mapper/PmsCommentReplayMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-authcenter/src/main/java/com/sun/sunmall/service/SunUserDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/resources/mappers/UmsMemberLevelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-authcenter/src/main/java/com/sun/sunmall/mapper/UmsMemberMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/resources/mappers/UmsMemberMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-redis-common/src/main/java/com/sun/sunmall/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-redis-common/src/main/java/com/sun/sunmall/util/RedisOpsExtUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#1997#1998#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/dao/PortalProductCommentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/PortalApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.10.1/feign-core-10.10.1.jar!/feign/SynchronousMethodHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="133" column="12" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/controller/UmsMemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/feign/member/UmsMemberFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/config/MemberServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/config/RibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/controller/PortalProductCommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/service/PortalProductCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/service/impl/PortalProductCommentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-gateway/src/main/java/com/sun/sunmall/filter/AuthorizationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-order/sunmall-order-history/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-order/sunmall-order-current/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-portal/src/main/java/com/sun/sunmall/feign/interceptor/HeaderInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/controller/UmsMemberCenterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/service/impl/UmsMebmerCenterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/resources/dao/PortalMemberInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/mapper/UmsMemberLevelMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/mapper/UmsMemberMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/mapper/UmsMemberReceiveAddressMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-member/src/main/java/com/sun/sunmall/dao/PortalMemberInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2.2.6.RELEASE/spring-cloud-starter-alibaba-nacos-config-2.2.6.RELEASE.jar!/com/alibaba/cloud/nacos/NacosConfigProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="127" column="55" selection-start-line="127" selection-start-column="55" selection-end-line="127" selection-end-column="55" />
+          <folding>
+            <element signature="e#4097#4098#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-order/sunmall-order-current/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sunmall-order/sunmall-order-current/src/main/java/com/sun/sunmall/OrderCurrentApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (sunmall-common)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45882353" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>sunmall-gateway</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.45882353" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

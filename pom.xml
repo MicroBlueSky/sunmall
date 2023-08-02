@@ -11,9 +11,12 @@
     <modules>
         <module>sunmall-common</module>
         <module>sunmall-authcenter</module>
-        <module>unmall-gateway</module>
         <module>sunmall-gateway</module>
         <module>sunmall-member</module>
+        <module>sunmall-portal</module>
+        <module>sunmall-redis-common</module>
+        <module>sunmall-product</module>
+        <module>sunmall-order</module>
     </modules>
 
     <properties>
