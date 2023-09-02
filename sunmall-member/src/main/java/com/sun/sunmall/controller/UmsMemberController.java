@@ -44,8 +44,8 @@ public class UmsMemberController {
     @GetMapping("/verifyCode")
     public void generateImg(HttpServletRequest request, HttpServletResponse response){
         HappyCaptcha.require(request, response)
-                .style(CaptchaStyle.ANIM)
-                .type(CaptchaType.ARITHMETIC_ZH)
+                .style(CaptchaStyle.IMG)
+                .type(CaptchaType.ARITHMETIC)
                 .build()
                 .finish();
     }

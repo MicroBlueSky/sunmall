@@ -1,5 +1,8 @@
 package com.sun.sunmall.dao;
 
+import com.sun.sunmall.common.api.CommonPage;
+import com.sun.sunmall.common.api.CommonResult;
+import com.sun.sunmall.model.PmsProduct;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
@@ -18,4 +21,14 @@ public interface PortalProductDao {
      * @return
      */
     List<Long> getAllProductId();
+
+    /**
+     * @description 查找出所有的产品
+     */
+    List<PmsProduct> listProductByPage(@Param("pageNum") Integer pageNum, @Param("pageSize") Integer pageSize);
+
+    /**
+     * @description 统计所有的产品
+     */
+    long countProductByPage(@Param("pageNum") Integer pageNum, @Param("pageSize") Integer pageSize);
 }
