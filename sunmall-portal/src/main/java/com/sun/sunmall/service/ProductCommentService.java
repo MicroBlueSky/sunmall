@@ -1,6 +1,6 @@
 package com.sun.sunmall.service;
 
-import com.sun.sunmall.bean.PmsComment;
+import com.sun.sunmall.model.product.PmsComment;
 import com.sun.sunmall.bean.PmsCommentReplay;
 import com.sun.sunmall.common.api.CommonResult;
 import org.springframework.transaction.annotation.Transactional;
@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @description
  * @create 2023-07-30 21:27
  */
-public interface PortalProductCommentService {
+public interface ProductCommentService {
 
     /**
      * 获取评论列表
@@ -28,8 +28,7 @@ public interface PortalProductCommentService {
      * @param pmsComment
      * @return
      */
-    @Transactional
-    Integer insertProductComment(PmsComment pmsComment);
+    CommonResult insertProductComment(PmsComment pmsComment);
 
     /**
      * 用户评价回复

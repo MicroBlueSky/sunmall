@@ -1,6 +1,8 @@
 package com.sun.sunmall.service;
 
 import com.sun.sunmall.common.api.CommonPage;
+import com.sun.sunmall.common.api.CommonResult;
+import com.sun.sunmall.model.product.PmsComment;
 
 import java.util.List;
 
@@ -18,4 +20,8 @@ public interface PortalProductService {
     CommonPage listProductByPage(Integer pageNum, Integer pageSize);
 
     List<Long> getRecommandBrandList();
+
+    CommonResult addComment(PmsComment pmsComment);
+
+    CommonPage commentByPage(Long productId, Integer pageSize, Integer pageNum);
 }

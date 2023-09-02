@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sun.sunmall.mapper.OmsPortalOrderMapper">
+
+    <select id="findMemberOrderByMemberIdAndProductId" resultType="com.sun.sunmall.bean.domain.OmsOrderDetail">
+        select o.id,item.id item_id
+        from oms_order o
+        LEFT JOIN
+        oms_order_item item
+        on o.id=item.order_id
+        where
+        o.delete_status=0
+        and o.status=3
+        and o.member_id=#{memberId}
+        and item.product_id=#{productId}
+    </select>
 </mapper>

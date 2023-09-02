@@ -16,11 +16,5 @@ import java.util.List;
  */
 public interface OmsPortalOrderMapper {
 
-    @Select("<script>"+
-            "select i.* from oms_order r inner join\n" +
-            "        oms_order_item i\n" +
-            "        on r.id = i.order_id\n" +
-            "        where r.member_id = #{memberId} and i.product_id = #{productId}"+
-    "</script>")
     List<OmsOrderDetail> findMemberOrderByMemberIdAndProductId(@Param("memberId") Long memberId, @Param("productId") Long productId);
 }

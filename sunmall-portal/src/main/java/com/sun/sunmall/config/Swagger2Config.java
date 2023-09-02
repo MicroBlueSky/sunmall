@@ -21,7 +21,6 @@ import java.util.List;
  * Swagger2API文档的配置
  */
 @Configuration
-@EnableSwagger2
 public class Swagger2Config {
     @Bean
     public Docket createRestApi() {

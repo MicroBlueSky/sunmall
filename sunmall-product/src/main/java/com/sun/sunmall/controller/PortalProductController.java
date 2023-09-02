@@ -4,6 +4,7 @@ import com.sun.sunmall.common.api.CommonPage;
 import com.sun.sunmall.common.api.CommonResult;
 import com.sun.sunmall.dao.PortalProductDao;
 import com.sun.sunmall.model.PmsProduct;
+import com.sun.sunmall.model.product.PmsComment;
 import com.sun.sunmall.service.PortalProductService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -36,6 +37,22 @@ public class PortalProductController {
     @PostMapping(value = "/listByPage")
     public CommonResult<CommonPage> listProductByPage(Integer pageNum, Integer pageSize){
         CommonPage page = portalProductService.listProductByPage(pageNum, pageSize);
+        return CommonResult.success(page);
+    }
+
+    @ApiOperation(value = "添加品论")
+    @PostMapping(value = "/addComment")
+    public CommonResult addComment(@RequestBody PmsComment pmsComment){
+        CommonResult result = portalProductService.addComment(pmsComment);
+        return CommonResult.success(result);
+    }
+
+    @ApiOperation(value = "查询商品评论列表")
+    @PostMapping(value = "/commentByPage")
+    public CommonResult commentByPage(@RequestParam("productId") Long productId,
+                                      @RequestParam(value = "pageSize", defaultValue = "4") Integer pageSize,
+                                      @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum){
+        CommonPage page = portalProductService.commentByPage(productId,pageSize,pageNum);
         return CommonResult.success(page);
     }
 }

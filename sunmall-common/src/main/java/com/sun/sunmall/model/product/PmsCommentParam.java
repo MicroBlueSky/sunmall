@@ -1,7 +1,5 @@
-package com.sun.sunmall.domain;
+package com.sun.sunmall.model.product;
 
-import com.sun.sunmall.model.product.PmsComment;
-import com.sun.sunmall.bean.PmsCommentReplay;
 import lombok.Data;
 
 import java.util.List;
