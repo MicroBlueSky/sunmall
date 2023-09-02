@@ -1,13 +1,11 @@
 package com.sun.sunmall.mapper;
 
-import com.baomidou.dynamic.datasource.annotation.DS;
 import com.sun.sunmall.model.UmsMember;
 import com.sun.sunmall.model.UmsMemberExample;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-@DS("user")
 public interface UmsMemberMapper {
 
     long countByExample(UmsMemberExample example);

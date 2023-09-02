@@ -1,7 +1,7 @@
 package com.sun.sunmall.service.impl;
 
 import com.sun.sunmall.bean.domain.PortalMemberInfo;
-import com.sun.sunmall.dao.PortalMemberInfoDao;
+import com.sun.sunmall.mapper.UmsMemberMapper;
 import com.sun.sunmall.service.UmsMemberCenterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,10 +16,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class UmsMebmerCenterServiceImpl implements UmsMemberCenterService {
     @Autowired
-    private PortalMemberInfoDao portalMemberInfoDao;
+    private UmsMemberMapper umsMemberMapper;
 
     @Override
     public PortalMemberInfo getMemberInfo(Long memberId) {
-        return portalMemberInfoDao.getMemberInfo(memberId);
+        return umsMemberMapper.getMemberInfo(memberId);
     }
 }

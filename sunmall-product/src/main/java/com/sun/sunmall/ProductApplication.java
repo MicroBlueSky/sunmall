@@ -16,11 +16,10 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @description
  * @create 2023-07-31 23:25
  */
-@SpringBootApplication(exclude = DruidDataSourceAutoConfigure.class)
+@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, DruidDataSourceAutoConfigure.class})
 @EnableDiscoveryClient
-@EnableTransactionManagement
 @EnableSwagger2
-@MapperScan({"com.sun.sumall.mapper","com.sun.sumall.dao"})
+@MapperScan({"com.sun.sunmall.mapper","com.sun.sunmall.dao"})
 public class ProductApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProductApplication.class, args);
