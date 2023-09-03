@@ -1,18 +1,14 @@
 package com.sun.sunmall.controller;
 
-import com.sun.sunmall.bean.PmsProduct;
 import com.sun.sunmall.common.api.CommonPage;
 import com.sun.sunmall.common.api.CommonResult;
-import com.sun.sunmall.domain.HomeContentResult;
+import com.sun.sunmall.promotion.domain.HomeContentResult;
+import com.sun.sunmall.service.CacheManageService;
 import com.sun.sunmall.service.HomeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 /**
  * @author Administrator
@@ -28,12 +24,14 @@ public class HomeController {
 
     @Autowired
     private HomeService homeService;
+    @Autowired
+    private CacheManageService cacheManageService;
 
     @ApiOperation("首页内容页信息展示")
     @RequestMapping(value = "/content", method = RequestMethod.GET)
     @ResponseBody
     public CommonResult<HomeContentResult> content() {
-        HomeContentResult contentResult = homeService.recommendContent();
+        HomeContentResult contentResult = cacheManageService.recommendContent();
         return CommonResult.success(contentResult);
     }
 

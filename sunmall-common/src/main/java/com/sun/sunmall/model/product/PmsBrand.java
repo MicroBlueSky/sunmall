@@ -1,4 +1,4 @@
-package com.sun.sunmall.bean;
+package com.sun.sunmall.model.product;
 
 import io.swagger.annotations.ApiModelProperty;
 

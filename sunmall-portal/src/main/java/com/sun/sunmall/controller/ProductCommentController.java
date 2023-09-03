@@ -1,8 +1,8 @@
 package com.sun.sunmall.controller;
 
 import com.sun.sunmall.common.api.CommonResult;
-import com.sun.sunmall.domain.PmsCommentParam;
 import com.sun.sunmall.model.product.PmsComment;
+import com.sun.sunmall.model.product.PmsCommentParam;
 import com.sun.sunmall.service.ProductCommentService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

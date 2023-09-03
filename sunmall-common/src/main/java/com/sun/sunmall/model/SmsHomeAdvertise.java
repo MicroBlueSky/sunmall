@@ -1,4 +1,4 @@
-package com.sun.sunmall.domain;
+package com.sun.sunmall.model;
 
 import io.swagger.annotations.ApiModelProperty;
 

@@ -1,9 +1,9 @@
-package com.sun.sunmall.domain;
+package com.sun.sunmall.promotion.domain;
 
-import com.sun.sunmall.bean.CmsSubject;
-import com.sun.sunmall.bean.PmsBrand;
-import com.sun.sunmall.bean.PmsProduct;
-import com.sun.sunmall.promotion.domain.FlashPromotionProduct;
+import com.sun.sunmall.model.SmsHomeAdvertise;
+import com.sun.sunmall.model.normal.CmsSubject;
+import com.sun.sunmall.model.product.PmsBrand;
+import com.sun.sunmall.model.product.PmsProduct;
 import lombok.Getter;
 import lombok.Setter;
 
